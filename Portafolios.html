@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios Quiroga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="barraLateral">
+        <div class="logo">
+        </div>
+
+        <ul class="menu">
+            <li>
+                <a href="#">Sobre mí</a>
+                <ul class="submenu">
+                    <h5>
+                        <li>Leonardo Javier Quiroga Briceño</li>
+                        <li>Bachiller en:
+                        Ciencias Naturales</li>
+                        <li>21/08/2000</li>
+                        <li>Venezolano
+                        Naturalizado:
+                        Argentino</li>
+                    </h5>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Fortalezas</a>
+                <ul class="submenu">
+                    <h5>
+                        <li>AutoCAD 2D y 3D</li>
+                        <li>SketchUP</li>
+                        <li>Diseño Web (HTML, CSS, JS)</li>
+                        <li>Python</li>
+                        <li>Marketing Digital, Gestion de equipos de Trabajo</li>
+                        <li>Redaccion de Contenido, Storytelling</li>
+                    </h5>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Proyectos</a>
+                <ul class="submenu">
+                    <li class="proyectos">
+                        <div class="calculadora">
+                            <a href="#">Calculadora</a>
+                        </div>
+                    </li>
+                    <li class="proyectos">
+                        <div class="juegoDeLaSerpiente">
+                            <a href="#">Juego de la Serpiente</a>
+                        </div>
+                    </li>
+                    <li class="proyectos">
+                        <a href="#">Proyecto 3</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">CVs</a>
+                <ul class="submenu">
+                    <li><a href="CVprogram2024.pdf" target="_blank">Programación</a></li>
+                    <li><a href="CVgastro2023.pdf" target="_blank">Gastronomía</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Contacto</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="https://www.instagram.com/dylarousse/" class="contact-button instagram">
+                            <img src="Instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:kheonard@gmail.com" class="contact-button gmail">
+                            <img src="Gmail.png" alt="GMail">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="whatsapp://send?phone=5491173691070&text=Hola,%20me%20gustaría%20contactarte" class="contact-button whatsapp">
+                            <img src="WhatsApp.png" alt="WhatsApp">
+                        </a>
+                    </li>
+                </ul>
+            </li>  
+
+        </ul>
+    </div>
+
+
+    <!-- Contenedor oculto para la calculadora -->
+    <div id="calculadoraOculta" style="display: none;">
+        <div class="calculadora">
+            <form action="" method="dialog">
+                <input type="text" id="op1" placeholder="Operador 1">
+                <input type="text" id="operador" placeholder="+, -, *, /">
+                <input type="text" id="op2" placeholder="Operador 2">
+                <input type="button" value="Calcular" id="calcular">
+                <p id="resultado"></p>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <div class="contenido">
+        <div class="perfil">
+            <h1>Leonardo Quiroga</h1>
+            <h4>Programador Frontend, Diseñador Digital, Especialista en Marketing</h4>
+        </div>
+        <div class="proyectosContenido">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><a href="#">Proyecto 1</a></li>
+                <li><a href="#">Proyecto 2</a></li>
+                <li><a href="#">Proyecto 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
